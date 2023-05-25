@@ -1,0 +1,218 @@
+body {
+  font-family: "Roboto";
+  background-color: #181818;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  font-weight: 500;
+  color: #fff;
+  font-size: 18px;
+}
+nav .navbar-nav .nav-item .nav-link:active {
+  color: #00d85a;
+}
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: #00d85a;
+}
+
+.header-portofolio {
+  width: 100%;
+  height: calc(100vh - 55px);
+  color: #fff;
+}
+.header-portofolio .text-head {
+  height: calc(100vh - 70px);
+}
+.header-portofolio .text-wrap {
+  margin: auto;
+}
+.header-portofolio .text-wrap .title {
+  margin: auto;
+}
+.header-portofolio .text-wrap .title p {
+  font-family: "Inter";
+  margin-bottom: 5px;
+}
+.header-portofolio .text-wrap .title p span {
+  color: #00d85a;
+  font-weight: 600;
+}
+.header-portofolio .text-wrap .title h1 {
+  margin-bottom: 0;
+}
+.header-portofolio .text-wrap .btn-lets-talk {
+  border: none;
+  color: #181818;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #00d85a;
+  padding: 10px 20px;
+  margin-top: 24px;
+}
+.header-portofolio .text-wrap .btn-lets-talk:hover {
+  color: #fff;
+  filter: drop-shadow(0px 0px 4px #00d85a);
+}
+.header-portofolio .text-wrap .button-social-media {
+  margin-top: 100px;
+}
+.header-portofolio .text-wrap .button-social-media .btn-linked {
+  padding: 0;
+  border: none;
+  margin-left: -6px;
+}
+.header-portofolio .text-wrap .button-social-media .btn-linked img {
+  height: 40px;
+}
+.header-portofolio .text-wrap .button-social-media .download-cv-btn {
+  padding: 0;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+.header-portofolio .text-wrap .button-social-media .download-cv-btn span {
+  color: #00d85a;
+}
+.header-portofolio .img-profile {
+  width: 300px;
+  margin: auto;
+}
+.header-portofolio .img-profile .green-bg {
+  width: 200px;
+  height: 200px;
+  background-color: #00d85a;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -3;
+  margin-top: 130px;
+  margin-left: 20px;
+}
+.header-portofolio .img-profile img {
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  width: 100%;
+}
+
+.line-title {
+  width: 0%;
+  opacity: 0;
+  border: 2px solid #00d85a;
+  transition: 0.5s;
+}
+
+.line-title-active {
+  width: 40% !important;
+  opacity: 1;
+}
+
+.about-me {
+  z-index: 3;
+  padding: 48px;
+  background-color: #2c2c2c;
+}
+.about-me h2 {
+  color: #fff;
+}
+.about-me .about-content {
+  margin-top: 24px;
+}
+.about-me .about-content p {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 20px;
+}
+
+.skill {
+  padding: 48px;
+}
+.skill h2 {
+  color: #fff;
+}
+.skill .images-skill {
+  margin-top: 24px;
+}
+.skill .images-skill .image-content {
+  width: 150px;
+  padding: 12px;
+  border-radius: 8px;
+}
+.skill .images-skill .image-content img {
+  width: 100%;
+}
+.skill .images-skill .image-content:hover {
+  filter: drop-shadow(0px 0px 7px #00d85a);
+}
+
+.portofolio {
+  padding: 48px;
+  background: linear-gradient(180deg, rgb(44, 44, 44) 0%, rgb(24, 24, 24) 64%);
+}
+.portofolio h2 {
+  color: #fff;
+}
+.portofolio .card-portofolio {
+  margin-top: 32px;
+  padding: 10px;
+}
+.portofolio .card-portofolio a {
+  text-decoration: none;
+}
+.portofolio .card-portofolio:hover {
+  filter: drop-shadow(0px 0px 7px #00d85a);
+}
+.portofolio .card-portofolio .image-cover-port {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+.portofolio .card-portofolio .title {
+  margin-top: 18px;
+}
+.portofolio .card-portofolio .title h1 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.portofolio .card-portofolio .title p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.portofolio .card-portofolio .title .btn-visit {
+  margin-top: 12px;
+  border: none;
+  padding: 5px 10px;
+  background-color: #00d85a;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contact {
+  padding: 48px;
+  background-color: #2c2c2c;
+}
+.contact h2 {
+  color: #fff;
+}
+.contact .contact-content {
+  margin-top: 24px;
+  color: #fff;
+}
+.contact .contact-content a {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.contact .contact-content a:hover {
+  color: #00d85a;
+}
+
+footer {
+  background-color: #00d85a;
+  padding: 10px 10px 1px;
+  color: #fff;
+  font-size: 12px;
+}/*# sourceMappingURL=portofolio.css.map */

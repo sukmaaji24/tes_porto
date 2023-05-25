@@ -1,0 +1,259 @@
+@media (max-width: 991.98px) {
+
+    nav {
+        .navbar-toggler {
+            color: #fff;
+            // border: 1px #fff;
+
+            span {
+                color: #fff;
+            }
+        }
+    }
+
+    .header-portofolio {
+
+        .text-wrap {
+            .title {
+                h1 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .line-title {
+
+        width: 40%;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header-portofolio {
+        margin-top: 20px;
+        padding: 2%;
+        height: unset;
+
+        .text-head {
+            height: unset;
+        }
+
+        .text-wrap {
+            margin: unset;
+
+            .title {
+                h1 {
+                    font-size: 26px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+
+            .button-social-media {
+                margin-top: 24px;
+            }
+        }
+
+        .img-profile {
+            width: 200px !important;
+            // margin: -200px auto 0;
+            // margin-top: -50px;
+
+            .green-bg {
+                width: 150px;
+                height: 150px;
+                margin-top: 80px;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .about-me {
+
+        padding: 24px;
+
+        h2 {
+            color: #fff;
+            // border-bottom: 2px solid #00d85a;
+        }
+
+        .about-content {
+            margin-top: 24px;
+
+            p {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    .skill {
+        padding: 28px;
+
+        .images-skill {
+            .image-content {
+                width: 130px;
+            }
+        }
+    }
+
+    .portofolio {
+        padding: 24px;
+
+        .card-portofolio {
+            .image-cover-port {
+                height: 240px;
+            }
+
+            .title {
+
+                h1 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .contact {
+        padding: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-portofolio {
+        margin-top: 14px;
+        padding: 2%;
+        height: unset;
+
+        .text-head {
+            height: unset;
+        }
+
+        .text-wrap {
+            margin: unset;
+
+            .title {
+                h1 {
+                    font-size: 22px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+            }
+
+            .btn-lets-talk {
+                font-size: 12px;
+                padding: 8px 10px;
+                margin-top: 18px;
+            }
+
+            .button-social-media {
+                margin-top: 18px;
+
+                .btn-linked {
+                    margin-left: 0;
+
+                    img {
+                        height: 22px;
+                    }
+                }
+
+                .download-cv-btn {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .img-profile {
+            width: 130px !important;
+            // margin: -200px auto 0;
+            // margin-top: -50px;
+
+            .green-bg {
+                width: 100px;
+                height: 100px;
+                margin-top: 50px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .about-me {
+
+        padding: 18px;
+
+        h2 {
+            font-size: 16px;
+        }
+
+        .about-content {
+            margin-top: 18px;
+
+            p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    .skill {
+        padding: 18px 28px;
+
+        h2 {
+            font-size: 16px;
+        }
+
+        .images-skill {
+            .image-content {
+                width: 80px;
+            }
+        }
+    }
+
+    .portofolio {
+        padding: 18px;
+
+        h2 {
+            font-size: 16px;
+        }
+
+        .card-portofolio {
+            .image-cover-port {
+                height: 200px;
+            }
+
+            .title {
+
+                h1 {
+                    font-size: 14px;
+                }
+
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .contact {
+        padding: 18px;
+
+        h2 {
+            font-size: 16px;
+        }
+
+        a {
+            font-size: 12px;
+        }
+    }
+}

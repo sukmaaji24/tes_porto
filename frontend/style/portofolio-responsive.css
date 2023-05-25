@@ -1,0 +1,173 @@
+@media (max-width: 991.98px) {
+  nav .navbar-toggler {
+    color: #fff;
+  }
+  nav .navbar-toggler span {
+    color: #fff;
+  }
+  .header-portofolio .text-wrap .title h1 {
+    font-size: 30px;
+  }
+  .line-title {
+    width: 40%;
+    opacity: 1;
+  }
+}
+@media (max-width: 575.98px) {
+  .header-portofolio {
+    margin-top: 20px;
+    padding: 2%;
+    height: unset;
+  }
+  .header-portofolio .text-head {
+    height: unset;
+  }
+  .header-portofolio .text-wrap {
+    margin: unset;
+  }
+  .header-portofolio .text-wrap .title h1 {
+    font-size: 26px;
+  }
+  .header-portofolio .text-wrap .title p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .header-portofolio .text-wrap .button-social-media {
+    margin-top: 24px;
+  }
+  .header-portofolio .img-profile {
+    width: 200px !important;
+  }
+  .header-portofolio .img-profile .green-bg {
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .about-me {
+    padding: 24px;
+  }
+  .about-me h2 {
+    color: #fff;
+  }
+  .about-me .about-content {
+    margin-top: 24px;
+  }
+  .about-me .about-content p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .skill {
+    padding: 28px;
+  }
+  .skill .images-skill .image-content {
+    width: 130px;
+  }
+  .portofolio {
+    padding: 24px;
+  }
+  .portofolio .card-portofolio .image-cover-port {
+    height: 240px;
+  }
+  .portofolio .card-portofolio .title h1 {
+    font-size: 16px;
+  }
+  .portofolio .card-portofolio .title p {
+    font-size: 12px;
+  }
+  .contact {
+    padding: 24px;
+  }
+}
+@media (max-width: 320px) {
+  .header-portofolio {
+    margin-top: 14px;
+    padding: 2%;
+    height: unset;
+  }
+  .header-portofolio .text-head {
+    height: unset;
+  }
+  .header-portofolio .text-wrap {
+    margin: unset;
+  }
+  .header-portofolio .text-wrap .title h1 {
+    font-size: 22px;
+  }
+  .header-portofolio .text-wrap .title p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .header-portofolio .text-wrap .btn-lets-talk {
+    font-size: 12px;
+    padding: 8px 10px;
+    margin-top: 18px;
+  }
+  .header-portofolio .text-wrap .button-social-media {
+    margin-top: 18px;
+  }
+  .header-portofolio .text-wrap .button-social-media .btn-linked {
+    margin-left: 0;
+  }
+  .header-portofolio .text-wrap .button-social-media .btn-linked img {
+    height: 22px;
+  }
+  .header-portofolio .text-wrap .button-social-media .download-cv-btn {
+    font-size: 12px;
+  }
+  .header-portofolio .img-profile {
+    width: 130px !important;
+  }
+  .header-portofolio .img-profile .green-bg {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .about-me {
+    padding: 18px;
+  }
+  .about-me h2 {
+    font-size: 16px;
+  }
+  .about-me .about-content {
+    margin-top: 18px;
+  }
+  .about-me .about-content p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .skill {
+    padding: 18px 28px;
+  }
+  .skill h2 {
+    font-size: 16px;
+  }
+  .skill .images-skill .image-content {
+    width: 80px;
+  }
+  .portofolio {
+    padding: 18px;
+  }
+  .portofolio h2 {
+    font-size: 16px;
+  }
+  .portofolio .card-portofolio .image-cover-port {
+    height: 200px;
+  }
+  .portofolio .card-portofolio .title h1 {
+    font-size: 14px;
+  }
+  .portofolio .card-portofolio .title p {
+    font-size: 10px;
+  }
+  .contact {
+    padding: 18px;
+  }
+  .contact h2 {
+    font-size: 16px;
+  }
+  .contact a {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=portofolio-responsive.css.map */
